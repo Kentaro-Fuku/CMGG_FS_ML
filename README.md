@@ -1,19 +1,14 @@
-# CMGG-FS-ML
 
-**A Python pipeline for SARPES data processing and PCA-based outlier detection**
 
-Co₂MnGaGe spin-resolved ARPES (SARPES) data are processed through:
+# Supporting Infomation : Automated Detection of Topological Features in Co2MnGaxGe1-x Fermi Surface via Interpretable Machine Learning
 
-1. **Brillouin Zone mapping**  
-   – Load `.dat` files, apply parallel translations & rotations  
-2. **Data export**  
-   – Save as NumPy, NetCDF/HDF5, and image formats  
-3. **Gaussian broadening**  
-   – Rasterize coordinates, apply fast Gaussian filter  
-4. **PCA analysis**  
-   – Flatten up/down spin images, compute PCA, detect outliers, and generate plots  
+This repository is supplemental information of the paper **Automated Detection of Topological Features in Co2MnGaxGe1-x Fermi Surface via Interpretable Machine Learning**.
+It contains the all of codes and data used in the paper.
 
----  
+This data is freely available, but please note that any and all disadvantages resulting from its use are the responsibility of the user.
+
+If you have any questions about this repository, please contact us at the following e-mail address.
+fuku.kentaro.f6[at]f.mail.nagoya-u.ac.jp
 
 ## Requirements
 
@@ -25,8 +20,3 @@ Co₂MnGaGe spin-resolved ARPES (SARPES) data are processed through:
 - h5netcdf
 - matplotlib
 - scikit-learn
-
-
-
-
-
