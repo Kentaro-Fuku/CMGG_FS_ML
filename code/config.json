@@ -1,0 +1,18 @@
+{
+    "BASE_PATH": "../data/",
+    "INPUT_PATHS": {
+      "up_x": "fermi_line_kx_ky_Xpoint_up/",
+      "up_ganma": "fermi_line_kx_ky_ganma_up/",
+      "down_ganma": "fermi_line_kx_ky_ganma_down/"
+    },
+    "BZ_FILE_PATH": "bz_line_ganma.dat",
+    "SPIN_P_CSV":"spin_polarization_article.csv",
+    "ROTATION_ANGLE": 45,
+    "SIGMA": 4,
+    "PIXEL_SIZE": 255,
+    "PCA": {
+      "n_components": 10,
+      "threshold": 3.5,
+      "output_dir": "save_data/pca"
+    }
+  }
